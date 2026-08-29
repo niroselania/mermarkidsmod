@@ -1,0 +1,12 @@
+services:
+  mermarkids:
+    build: .
+    container_name: mermarkids-ventas
+    restart: unless-stopped
+    ports:
+      - "${APP_PORT:-8015}:80"
+    volumes:
+      - mermarkids_data:/data
+
+volumes:
+  mermarkids_data:
