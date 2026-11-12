@@ -18,6 +18,14 @@ El archivo principal de la app es `index.html` y los datos se guardan en SQLite 
 - Historial de pagos de cada pedido al editarlo, con opcion de quitar un pago cargado por error.
 - Comprobante de pedido descargable en texto.
 
+## Nuevo diseño
+
+- Secciones: Inicio, Pedidos, Gastos y Cuentas (en celular, barra inferior y boton "+").
+- Inicio con metricas animadas, filtro por periodo, grafico de los ultimos 6 meses, pedidos por estado, lista de "Por cobrar" y ultimos movimientos.
+- Pedidos en Tablero (arrastrar para cambiar estado), Tarjetas o Tabla.
+- Formularios en panel lateral, boton "Cobrar" directo, acceso a WhatsApp del cliente.
+- Modo oscuro y atajos de teclado: N (nuevo pedido), G (nuevo gasto), / (buscar), Esc (cerrar).
+
 ## Novedades de esta version
 
 - La fecha del dia se toma en hora local (antes, despues de las 21 hs, se cargaba la fecha del dia siguiente).
